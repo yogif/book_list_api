@@ -1,0 +1,24 @@
+{
+  "name": "node_project_dicoding",
+  "version": "1.0.0",
+  "description": "project dicoding",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main/server.js",
+    "lint": "eslint ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "yogiF",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "nanoid": "^3.3.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "eslint-config-dicodingacademy": "^0.9.4",
+    "globals": "^15.14.0"
+  }
+}
